@@ -60,9 +60,9 @@ spec:
   volumeClaimTemplates:
   - metadata:
       name: mysql
-  spec:
-    accessModes: [ "ReadWriteOnce"]
-    storageClassName: "expense-ebs"
-    resources: 
-      requests:
-        storage: 1Gi
+    spec:
+      accessModes: [ "ReadWriteOnce"]
+      storageClassName: "expense-ebs"
+      resources: 
+        requests:
+          storage: 1Gi
