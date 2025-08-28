@@ -59,7 +59,7 @@ spec:
           mountPath: /var/lib/mysql
   volumeClaimTemplates:
   - metadata:
-    name: mysql
+      name: mysql
   spec:
     accessModes: [ "ReadWriteOnce"]
     storageClassName: "expense-ebs"
